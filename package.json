@@ -13,6 +13,22 @@
     "http-errors": "~1.6.3",
     "morgan": "~1.9.1",
     "mysql2": "^2.1.0",
-    "sequelize": "^5.21.12"
-  }
+    "sequelize": "^5.21.12",
+    "soket.io": "0.0.1-security",
+    "vue": "^2.6.11"
+  },
+  "description": "Portafolio de proyectos basado en la especialidad Fronted",
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JessieGue09/Portafolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JessieGue09/Portafolio/issues"
+  },
+  "homepage": "https://github.com/JessieGue09/Portafolio#readme"
 }

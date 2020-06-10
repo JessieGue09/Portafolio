@@ -35,7 +35,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use('/contact', indexRouter);
+app.use('/formulario', indexRouter);
 app.use('/deep', deepRouter);
 app.use('/bk', bkRouter);
 app.use('/lp', lpRouter);

@@ -3,7 +3,8 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('contact', { title: 'Express' });
+  res.render('formulario', { title: 'Express' });
 });
 
 module.exports = router;
+ 
