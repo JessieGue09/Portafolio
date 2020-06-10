@@ -15,6 +15,11 @@ var proyectRouter = require('./routes/proyects');
 
 var indexRouter = require('./routes/index');
 //var usersRouter = require('./routes/users');
+var deepRouter = require('./routes/deep');
+var bkRouter = require('./routes/bk');
+var lpRouter = require('./routes/lp');
+var noodlesRouter = require('./routes/noodles');
+
 
 
 
@@ -31,6 +36,10 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/contact', indexRouter);
+app.use('/deep', deepRouter);
+app.use('/bk', bkRouter);
+app.use('/lp', lpRouter);
+app.use('/noodles', noodlesRouter);
 //app.use('/users', usersRouter);
 app.use('/', proyectRouter);
 //app.use('/contact', contactRouter);
